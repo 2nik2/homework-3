@@ -1,0 +1,148 @@
+@charset "utf-8";
+/* CSS Document */
+/**********reset**********/
+html,
+body,
+div,
+h1,h2,h3,h4,h5,h6,
+p,
+span,
+a,
+img,
+ul,
+em,
+i,
+strong,
+b { 
+  border:0; 
+  margin:0; 
+  padding:0; 
+}
+a { 
+  font-weight:normal; 
+  outline:none; 
+  text-decoration:none;
+}
+ul {
+  list-style:none;
+}
+body {
+  background-color:#f9f9f9;
+}
+/**********общее**********/
+.float-clear {
+  clear:both;
+}
+li a {
+  display:block;
+}
+/**********контейнер**********/
+.field {
+  width:1060px;
+  margin:auto;
+  padding-top:50px; 
+  background-color:#fff;
+  box-shadow:0 0 1px 2px #dbdbdb;
+}
+.conteiner {
+  width:966px;
+  margin:auto;
+  padding-bottom:60px;
+  font:10pt "Open Sans Regular", Verdana;
+  letter-spacing:-0.5px;
+}
+/**********меню главное**********/
+nav {
+  height:40px;
+  margin-top:40px;
+  background-image:url(../img/main-menu.png);
+}
+nav li {
+  display:inline-block;
+  width:100px;
+  margin-left:4px;
+  margin-right:31px;
+  text-align:center;  
+}
+nav li:hover {
+  background-image:url(../img/main-menu-hover.png);
+}
+nav a {
+  line-height:40px;
+  color:#fff;
+  font-size:110%;
+  text-shadow:0.5px 0.866px 1px rgba(0, 0, 0, 0.5); /*see css фотошоп*/
+}
+/**********main**********/
+main {
+  width:100%;
+  margin-top:40px;
+}
+/**********меню левое**********/
+.left_menu {
+  width:240px;
+  float:left;
+  margin-right:48px;
+  border:1px solid #c8c8c8;
+}
+.left_menu li {
+  height:39px;
+  border-bottom:1px solid #c8c8c8;
+}
+.left_menu li:last-child {
+  border-style:none;
+}
+.left_menu a {
+  margin-left:23px;
+  color:#656363;
+  line-height:39px;
+}
+.left_menu a:hover {
+  margin-left:35px;
+}
+/**********article**********/
+article {
+  float:left;
+  width:676px;
+}
+.object {
+  border:1px solid #c8c8c8;
+  text-align:center;
+  line-height:398px;
+}
+.object-img {
+  vertical-align:middle;
+}
+article p {
+  margin:40px 0 0 25px;
+  color:#2c2c2c;
+  line-height: 1.6;
+}
+/**********footer**********/
+footer {
+  height:40px;
+  margin-top:60px;
+  background-color:#e1e1e1;
+}
+footer ul {
+  float:left;
+}
+footer li {
+  display:inline-block;
+  width:100px;
+  margin-left:1px;
+  margin-right:35px;
+  text-align:center;  
+}
+footer a { 
+  line-height:40px;
+  color:#2c2c2c;
+}
+footer a:hover {
+  text-decoration:underline;
+}
+.copyright {
+  float:right;
+  line-height:40px;
+  margin-right:26px;
+}
